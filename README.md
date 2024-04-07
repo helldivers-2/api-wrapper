@@ -24,10 +24,6 @@ I created this to help me with developing my discord bot. Putting this on github
 ## Contributing
 Open a pull request.
 
-## License and Usage
-This project comes as it. I take no responiblitiy or fault for any damages ect. I offer no guarantees this is bug free. Use at your own risk. Use it how you like. I don't care.
-
-
 ## Thanks
 - dealloc and all the contributors to the hell divers 2 api
 - Ferdi Koomen for [openapi-typescript-codegen](https://www.npmjs.com/package/openapi-typescript-codegen).
