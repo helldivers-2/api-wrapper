@@ -1,0 +1,17 @@
+{
+  "name": "api-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hell-diver-client.ts",
+  "type": "commonjs",
+  "scripts": {
+    "generate": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "openapi-typescript-codegen": "^0.28.0"
+  }
+}

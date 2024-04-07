@@ -1,0 +1,5 @@
+{
+    "specUrl": "https://raw.githubusercontent.com/helldivers-2/api/master/src/Helldivers-2-API/wwwroot/Helldivers-2-API.json",
+    "outDir": "./generated",
+    "clientName": "HellDivers2Client"
+}
