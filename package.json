@@ -2,7 +2,7 @@
   "name": "hell-diver2-api-wrapper",
   "version": "1.0.0",
   "description": "A simple application to generate typescript code using the provided open api spec.",
-  "main": "hell-diver-client.ts",
+  "main": "index.ja",
   "type": "commonjs",
   "scripts": {
     "generate": "node index.js"
