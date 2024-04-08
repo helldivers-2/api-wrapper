@@ -1,5 +1,5 @@
 {
-  "name": "hell-divers2-api-wrapper",
+  "name": "helldivers2-api-wrapper",
   "version": "1.0.0",
   "description": "A simple application to generate typescript code using the provided open api spec.",
   "main": "index.js",
