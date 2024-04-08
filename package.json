@@ -1,13 +1,13 @@
 {
-  "name": "helldivers2-api-wrapper",
-  "version": "1.0.3",
+  "name": "@helldivers-2/api-wrapper",
+  "version": "1.0.4",
   "description": "A simple application to generate typescript code using the provided open api spec.",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "generate": "node index.js"
   },
-  "author": "",
+  "author": "sreece52",
   "license": "ISC",
   "dependencies": {
     "openapi-typescript-codegen": "^0.28.0"
@@ -15,6 +15,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/helldivers-2/api-wrapper"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "homepage": "https://github.com/helldivers-2/api-wrapper#readme",
   "bin": "index.js"
