@@ -10,8 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-  },
-  "devDependencies": {
     "openapi-typescript-codegen": "^0.28.0"
   },
   "bin": "index.js"
