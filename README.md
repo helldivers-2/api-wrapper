@@ -1,4 +1,4 @@
-# Hell Divers 2 TypeScript API wrapper
+# Helldivers 2 TypeScript API wrapper
 
 This is a simple node application to generate Typescript code for [helldivers-2/api](https://github.com/helldivers-2/api). Using the above provided OpenApi spec this application will generate all the nessecary models and services to interact with the api in a TypeScript application. 
 
@@ -13,7 +13,7 @@ I created this to help me with developing my discord bot. Putting this on github
 
 ### With npm
 - ``npm i helldivers2-api-wrapper``
-- ``npx helldivers2-api-wrpper index.js``
+- ``npx helldivers2-api-wrapper index.js``
 
 this will create a generated folder (configurable) containing all the models, services, ect.
 Now to use the services you need to create an instance of the client.
