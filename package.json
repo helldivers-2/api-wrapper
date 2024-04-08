@@ -12,5 +12,10 @@
   "dependencies": {
     "openapi-typescript-codegen": "^0.28.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreece52/helldivers2-api-wrapper.git"
+  },
+  "homepage": "https://github.com/sreece52/helldivers2-api-wrapper#readme",
   "bin": "index.js"
 }
