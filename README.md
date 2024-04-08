@@ -9,8 +9,8 @@ This is a simple node application to generate Typescript code for [helldivers-2/
 - ``npm run generate``
 
 ### With npm
-- ``npm i helldivers2-api-wrapper``
-- ``npx helldivers2-api-wrapper index.js``
+- ``npm i @helldivers-2/api-wrapper``
+- ``npx @helldivers-2/api-wrapper index.js``
 
 this will create a generated folder (configurable) containing all the models, services, ect.
 Now to use the services you need to create an instance of the client.
