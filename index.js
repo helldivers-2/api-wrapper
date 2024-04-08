@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const OpenAPI = require('openapi-typescript-codegen');
 const { outDir, specUrl, clientName } = require('./config.json');
 
