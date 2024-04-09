@@ -1,6 +1,6 @@
 {
   "name": "@helldivers-2/api-wrapper",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A simple application to generate typescript code using the provided open api spec.",
   "main": "index.js",
   "type": "commonjs",
