@@ -1,7 +1,24 @@
 #!/usr/bin/env node
 
 const OpenAPI = require('openapi-typescript-codegen');
-const { outDir, specUrl, clientName } = require('./config.json');
+const yargs = require('yargs/yargs');
+const { hideBin } = require('yargs/helpers');
+
+const argv = yargs(hideBin(process.argv)).argv;
+
+const { specUrl } = require('./config.json');
+
+// defaults
+let { outDir, clientName } = require('./config.json');
+
+// override defaults if provided
+if (argv.outDir) {
+    outDir = argv.outDir;
+}
+
+if (argv.clientName) {
+    clientName = argv.clientName;
+}
 
 function generateApiWrapper() {
     fetch(specUrl).then(async response => {

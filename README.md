@@ -24,6 +24,13 @@ const res = hellDivers2Client.v1.getApiV1AssignmentsAll();
 // do stuff
 ```
 
+### Options:
+The script will use the values provided in the config.json file. The following options will override the defaults.
+
+``--outDir <directory>`` overrides where the script will put the generated code. Defaults to ``generated``
+
+``--clientName <client name>`` overrides what the client class will be called. Defaults to ``HellDivers2Client``
+
 
 ## Contributing
 Open a pull request.

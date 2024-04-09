@@ -10,7 +10,8 @@
   "author": "sreece52",
   "license": "ISC",
   "dependencies": {
-    "openapi-typescript-codegen": "^0.28.0"
+    "openapi-typescript-codegen": "^0.28.0",
+    "yargs": "^17.7.2"
   },
   "repository": {
     "type": "git",
