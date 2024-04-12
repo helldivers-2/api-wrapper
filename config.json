@@ -1,5 +1,5 @@
 {
-    "specUrl": "https://helldivers-2.github.io/api/docs/openapi/Helldivers-2-API.json",
+    "defaultUrl": "https://helldivers-2.github.io/api/docs/openapi/Helldivers-2-API.json",
     "outDir": "./generated",
     "clientName": "HellDivers2Client"
 }

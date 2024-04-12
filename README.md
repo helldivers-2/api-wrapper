@@ -27,15 +27,18 @@ const res = hellDivers2Client.v1.getApiV1AssignmentsAll();
 ### Options:
 The script will use the values provided in the config.json file. The following options will override the defaults.
 
-``--outDir <directory>`` overrides where the script will put the generated code. Defaults to ``generated``
+``-u, --url <url string>`` OpenApi spec url. Defaults: ``https://helldivers-2.github.io/api/docs/openapi/Helldivers-2-API.json``
 
-``--clientName <client name>`` overrides what the client class will be called. Defaults to ``HellDivers2Client``
+``-o, --outDir <path>`` overrides where the script will put the generated code. Defaults: ``generated``
+
+``-c, --clientName <string>`` overrides what the client class will be called. Defaults: ``HellDivers2Client``
 
 
 ## Contributing
 Open a pull request.
 
 ## Thanks
-- dealloc and all the contributors to the hell divers 2 api
+- dealloc and all the contributors to the [helldivers-2/api](https://github.com/helldivers-2/api)
 - Ferdi Koomen for [openapi-typescript-codegen](https://www.npmjs.com/package/openapi-typescript-codegen).
 - Arrowhead for making such an awesome game
+- the [commander.js](https://github.com/tj/commander.js?tab=readme-ov-file#description-and-summary) devs for their awesome library.
